@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fresno Plumbing & Heating Inc — Plumbing Services in Fresno, CA</title>
+    <meta
+      name="description"
+      content="Fresno Plumbing & Heating Inc provides trusted plumbing and heating services in Fresno, CA with 24/7 emergency support, leak detection, water heaters, sewer service, and more."
+    />
+    <meta name="theme-color" content="#0f172a" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                navy: '#0f172a',
+                blue: '#1d4ed8',
+                sky: '#38bdf8',
+                red: '#dc2626',
+                cream: '#f8fafc'
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'Segoe UI', 'sans-serif']
+            }
+          }
+        }
+      };
+    </script>
+    <style>
+      html { scroll-behavior: smooth; }
+      body { font-family: Inter, 'Segoe UI', sans-serif; }
+      .hero-bg {
+        background-image: linear-gradient(90deg, rgba(2,6,23,0.85) 0%, rgba(15,23,42,0.72) 45%, rgba(15,23,42,0.45) 100%), url('https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=1600&q=80');
+        background-size: cover;
+        background-position: center;
+      }
+      .fade-in { opacity: 0; transform: translateY(16px); transition: all 0.6s ease-out; }
+      .fade-in.show { opacity: 1; transform: translateY(0); }
+    </style>
+  </head>
+  <body class="bg-slate-50 text-slate-800">
+    <header class="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur">
+      <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+        <a href="#top" class="flex items-center gap-3">
+          <div class="flex h-11 w-11 items-center justify-center rounded-full bg-brand-blue text-lg font-black text-white">FP</div>
+          <div>
+            <p class="text-base font-semibold text-slate-900">Fresno Plumbing & Heating Inc</p>
+            <p class="text-xs text-slate-500">Licensed • Insured • Since 1945</p>
+          </div>
+        </a>
+        <nav class="hidden items-center gap-6 text-sm font-medium text-slate-700 md:flex">
+          <a href="#services" class="transition hover:text-brand-blue">Services</a>
+          <a href="#about" class="transition hover:text-brand-blue">About</a>
+          <a href="#service-area" class="transition hover:text-brand-blue">Service Area</a>
+          <a href="#contact" class="transition hover:text-brand-blue">Contact</a>
+        </nav>
+        <a href="tel:5592924065" class="rounded-full bg-brand-red px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-red-700">
+          Call Now
+        </a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero-bg text-white">
+        <div class="mx-auto grid max-w-7xl gap-10 px-4 py-20 sm:px-6 lg:grid-cols-[1.1fr_0.9fr] lg:px-8 lg:py-28">
+          <div class="fade-in">
+            <p class="mb-4 inline-flex rounded-full border border-white/25 bg-white/10 px-3 py-1 text-sm font-semibold tracking-wide">
+              24/7 Emergency Plumbing • Fast Response in Fresno
+            </p>
+            <h1 class="max-w-3xl text-4xl font-black leading-tight sm:text-5xl lg:text-6xl">
+              Reliable plumbing and heating help when you need it most.
+            </h1>
+            <p class="mt-6 max-w-2xl text-lg text-slate-200 sm:text-xl">
+              From urgent leaks to water heater replacements, sewer work, and repiping, Fresno Plumbing & Heating Inc delivers dependable service with a family-owned standard of care.
+            </p>
+            <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+              <a href="tel:5592924065" class="rounded-full bg-brand-red px-6 py-3 text-center text-base font-semibold text-white transition hover:bg-red-700">
+                Call (559) 292-4065
+              </a>
+              <a href="#contact" class="rounded-full border border-white/30 bg-white/10 px-6 py-3 text-center text-base font-semibold text-white transition hover:bg-white/20">
+                Get a Free Quote
+              </a>
+            </div>
+          </div>
+          <div class="fade-in rounded-3xl border border-white/20 bg-white/10 p-6 shadow-2xl backdrop-blur">
+            <h2 class="text-2xl font-bold">Serving Fresno and the Central Valley</h2>
+            <ul class="mt-6 space-y-4 text-sm text-slate-100 sm:text-base">
+              <li class="flex items-start gap-3"><span class="mt-1 text-brand-sky">●</span><span>Over 80 years of experience with commercial and residential plumbing.</span></li>
+              <li class="flex items-start gap-3"><span class="mt-1 text-brand-sky">●</span><span>Emergency service available day or night for urgent repairs.</span></li>
+              <li class="flex items-start gap-3"><span class="mt-1 text-brand-sky">●</span><span>Trusted local team known for transparent pricing and lasting workmanship.</span></li>
+            </ul>
+            <a href="#services" class="mt-8 inline-flex items-center text-sm font-semibold text-brand-sky hover:text-cyan-300">
+              Explore our services →
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="border-b border-slate-200 bg-brand-navy text-white">
+        <div class="mx-auto flex max-w-7xl flex-wrap justify-center gap-4 px-4 py-4 text-center text-sm font-semibold sm:px-6 lg:px-8">
+          <span class="rounded-full border border-white/10 bg-white/10 px-3 py-2">Licensed & Insured</span>
+          <span class="rounded-full border border-white/10 bg-white/10 px-3 py-2">24/7 Emergency Service</span>
+          <span class="rounded-full border border-white/10 bg-white/10 px-3 py-2">Free Estimates</span>
+          <span class="rounded-full border border-white/10 bg-white/10 px-3 py-2">80+ Years in Business</span>
+        </div>
+      </section>
+
+      <section id="services" class="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
+        <div class="max-w-3xl">
+          <p class="text-sm font-semibold uppercase tracking-[0.3em] text-brand-blue">Our Services</p>
+          <h2 class="mt-3 text-3xl font-black text-slate-900 sm:text-4xl">Fast solutions for every plumbing and heating need.</h2>
+          <p class="mt-4 text-lg text-slate-600">Whether it is a small repair or a major project, our team responds quickly and works with care.</p>
+        </div>
+        <div class="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+          <article class="fade-in rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
+            <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl">🚿</div>
+            <h3 class="mt-5 text-xl font-bold text-slate-900">Drain Cleaning & Clogs</h3>
+            <p class="mt-3 text-slate-600">Clear, reliable service for backed-up sinks, toilets, showers, and main drains.</p>
+          </article>
+          <article class="fade-in rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
+            <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-red-50 text-2xl">🔥</div>
+            <h3 class="mt-5 text-xl font-bold text-slate-900">Water Heater Installation</h3>
+            <p class="mt-3 text-slate-600">Efficient replacement and installation for tank and tankless water heaters.</p>
+          </article>
+          <article class="fade-in rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
+            <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-amber-50 text-2xl">💧</div>
+            <h3 class="mt-5 text-xl font-bold text-slate-900">Leak Detection & Repair</h3>
+            <p class="mt-3 text-slate-600">Prompt leak diagnosis to prevent water damage and help protect your property.</p>
+          </article>
+          <article class="fade-in rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
+            <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-emerald-50 text-2xl">🧰</div>
+            <h3 class="mt-5 text-xl font-bold text-slate-900">Sewer Inspection & Repair</h3>
+            <p class="mt-3 text-slate-600">Video inspection and sewer solutions for blockages, line failures, and recurring issues.</p>
+          </article>
+          <article class="fade-in rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
+            <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-violet-50 text-2xl">🔄</div>
+            <h3 class="mt-5 text-xl font-bold text-slate-900">Re-Piping</h3>
+            <p class="mt-3 text-slate-600">Upgrade old or failing pipe systems for better performance and long-term peace of mind.</p>
+          </article>
+          <article class="fade-in rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
+            <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-cyan-50 text-2xl">🧪</div>
+            <h3 class="mt-5 text-xl font-bold text-slate-900">Backflow Testing</h3>
+            <p class="mt-3 text-slate-600">Certified inspections and testing to meet safety standards and protect your water supply.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="why-us" class="bg-white py-20">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div class="max-w-3xl">
+            <p class="text-sm font-semibold uppercase tracking-[0.3em] text-brand-blue">Why Choose Us</p>
+            <h2 class="mt-3 text-3xl font-black text-slate-900 sm:text-4xl">A local team that puts your home or business first.</h2>
+          </div>
+          <div class="mt-12 grid gap-6 lg:grid-cols-4">
+            <div class="fade-in rounded-3xl bg-slate-50 p-8">
+              <h3 class="text-xl font-bold text-slate-900">Fast response</h3>
+              <p class="mt-3 text-slate-600">We respond quickly for urgent calls and work to minimize disruption.</p>
+            </div>
+            <div class="fade-in rounded-3xl bg-slate-50 p-8">
+              <h3 class="text-xl font-bold text-slate-900">Upfront pricing</h3>
+              <p class="mt-3 text-slate-600">You get clear explanations, honest estimates, and dependable recommendations.</p>
+            </div>
+            <div class="fade-in rounded-3xl bg-slate-50 p-8">
+              <h3 class="text-xl font-bold text-slate-900">Local and trusted</h3>
+              <p class="mt-3 text-slate-600">We have served the Central Valley for generations and take pride in every job.</p>
+            </div>
+            <div class="fade-in rounded-3xl bg-slate-50 p-8">
+              <h3 class="text-xl font-bold text-slate-900">Guaranteed workmanship</h3>
+              <p class="mt-3 text-slate-600">We stand behind our work and aim for lasting repairs that solve the problem right.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
+        <div class="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+          <div class="fade-in">
+            <p class="text-sm font-semibold uppercase tracking-[0.3em] text-brand-blue">About Fresno Plumbing & Heating</p>
+            <h2 class="mt-3 text-3xl font-black text-slate-900 sm:text-4xl">A trusted name in plumbing since 1945.</h2>
+            <p class="mt-6 text-lg leading-8 text-slate-600">
+              Fresno Plumbing & Heating Inc has been serving the Central Valley for over 80 years. Our team combines deep experience with a commitment to quality craftsmanship, dependable service, and a customer-first approach.
+            </p>
+            <p class="mt-5 text-lg leading-8 text-slate-600">
+              Whether you need a quick repair, a major replacement, or help planning a new installation, we treat every project with professionalism and care.
+            </p>
+          </div>
+          <div class="fade-in rounded-3xl border border-slate-200 bg-slate-900 p-8 text-white shadow-xl">
+            <h3 class="text-2xl font-bold">Call for same-day help</h3>
+            <p class="mt-4 text-slate-300">Our team is ready to help with emergency repairs, routine maintenance, and complete plumbing upgrades.</p>
+            <div class="mt-8 space-y-4">
+              <a href="tel:5592924065" class="flex items-center justify-between rounded-2xl bg-white/10 px-4 py-3 transition hover:bg-white/20">
+                <span>Emergency line</span>
+                <span class="font-semibold">(559) 292-4065</span>
+              </a>
+              <a href="mailto:service@fresnoplumbinginc.com" class="flex items-center justify-between rounded-2xl bg-white/10 px-4 py-3 transition hover:bg-white/20">
+                <span>Email</span>
+                <span class="font-semibold">service@fresnoplumbinginc.com</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-slate-900 py-20 text-white">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div class="max-w-3xl">
+            <p class="text-sm font-semibold uppercase tracking-[0.3em] text-cyan-300">Testimonials</p>
+            <h2 class="mt-3 text-3xl font-black sm:text-4xl">Customers trust us for honest work and lasting results.</h2>
+          </div>
+          <div class="mt-12 grid gap-6 lg:grid-cols-3">
+            <div class="fade-in rounded-3xl border border-white/10 bg-white/10 p-8">
+              <p class="text-lg leading-8 text-slate-200">“Quick, courteous, and very knowledgeable. They fixed our leak fast and explained everything clearly.”</p>
+              <p class="mt-6 font-semibold">— Maria P.</p>
+            </div>
+            <div class="fade-in rounded-3xl border border-white/10 bg-white/10 p-8">
+              <p class="text-lg leading-8 text-slate-200">“The team replaced our water heater professionally and finished the job in one day. Great experience.”</p>
+              <p class="mt-6 font-semibold">— Daniel R.</p>
+            </div>
+            <div class="fade-in rounded-3xl border border-white/10 bg-white/10 p-8">
+              <p class="text-lg leading-8 text-slate-200">“Reliable service for a recurring sewer issue. They were responsive and got the job done right.”</p>
+              <p class="mt-6 font-semibold">— Lisa M.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="service-area" class="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
+        <div class="grid gap-10 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
+          <div class="fade-in">
+            <p class="text-sm font-semibold uppercase tracking-[0.3em] text-brand-blue">Service Area</p>
+            <h2 class="mt-3 text-3xl font-black text-slate-900 sm:text-4xl">Proudly serving Fresno, Clovis, and surrounding Central Valley communities.</h2>
+            <p class="mt-6 text-lg leading-8 text-slate-600">
+              From homes and apartments to commercial properties, we are ready to help across the region with dependable plumbing and heating solutions.
+            </p>
+          </div>
+          <div class="fade-in rounded-3xl border border-slate-200 bg-gradient-to-br from-brand-blue to-sky-600 p-8 text-white shadow-xl">
+            <h3 class="text-2xl font-bold">Areas we commonly serve</h3>
+            <ul class="mt-6 grid gap-3 text-sm sm:grid-cols-2 sm:text-base">
+              <li>Fresno</li>
+              <li>Clovis</li>
+              <li>Madera</li>
+              <li>Hanford</li>
+              <li>Visalia</li>
+              <li>Surrounding Central Valley</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="bg-slate-100 py-20">
+        <div class="mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 lg:grid-cols-[0.95fr_1.05fr] lg:px-8">
+          <div class="fade-in">
+            <p class="text-sm font-semibold uppercase tracking-[0.3em] text-brand-blue">Contact Us</p>
+            <h2 class="mt-3 text-3xl font-black text-slate-900 sm:text-4xl">Book service or request a free estimate.</h2>
+            <p class="mt-5 text-lg text-slate-600">Call us directly for urgent repairs or fill out the form and we will be in touch promptly.</p>
+            <div class="mt-8 space-y-4 rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+              <div>
+                <p class="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">Phone</p>
+                <a href="tel:5592924065" class="mt-1 block text-lg font-semibold text-brand-blue">(559) 292-4065</a>
+              </div>
+              <div>
+                <p class="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">Email</p>
+                <a href="mailto:service@fresnoplumbinginc.com" class="mt-1 block text-lg font-semibold text-brand-blue">service@fresnoplumbinginc.com</a>
+              </div>
+              <div>
+                <p class="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">Address</p>
+                <p class="mt-1 text-lg font-semibold text-slate-700">2585 N Larkin Ave, Fresno, CA 93727</p>
+              </div>
+              <div>
+                <p class="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">Hours</p>
+                <p class="mt-1 text-lg font-semibold text-slate-700">Mon–Fri: 7:00 AM – 5:00 PM<br />Sat: 8:00 AM – 4:00 PM<br />Sun: Closed</p>
+              </div>
+            </div>
+          </div>
+          <div class="fade-in rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
+            <form action="#" method="post" class="space-y-4">
+              <div class="grid gap-4 sm:grid-cols-2">
+                <label class="block text-sm font-medium text-slate-700">
+                  Name
+                  <input class="mt-2 w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none ring-0 focus:border-brand-blue" type="text" placeholder="Your name" />
+                </label>
+                <label class="block text-sm font-medium text-slate-700">
+                  Phone
+                  <input class="mt-2 w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none ring-0 focus:border-brand-blue" type="tel" placeholder="(559) 555-0101" />
+                </label>
+              </div>
+              <label class="block text-sm font-medium text-slate-700">
+                Email
+                <input class="mt-2 w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none ring-0 focus:border-brand-blue" type="email" placeholder="you@example.com" />
+              </label>
+              <label class="block text-sm font-medium text-slate-700">
+                Project Details
+                <textarea class="mt-2 min-h-32 w-full rounded-2xl border border-slate-300 px-4 py-3 outline-none ring-0 focus:border-brand-blue" placeholder="Tell us about your plumbing issue or project."></textarea>
+              </label>
+              <button type="submit" class="w-full rounded-full bg-brand-red px-6 py-3 text-base font-semibold text-white transition hover:bg-red-700">
+                Request a Call Back
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-slate-200 bg-white py-8">
+      <div class="mx-auto flex max-w-7xl flex-col gap-4 px-4 text-sm text-slate-600 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8">
+        <div>
+          <p class="text-base font-semibold text-slate-900">Fresno Plumbing & Heating Inc</p>
+          <p>2585 N Larkin Ave, Fresno, CA 93727</p>
+        </div>
+        <div class="flex flex-wrap gap-4">
+          <a href="#services" class="transition hover:text-brand-blue">Services</a>
+          <a href="#about" class="transition hover:text-brand-blue">About</a>
+          <a href="#contact" class="transition hover:text-brand-blue">Contact</a>
+        </div>
+        <p>© <span id="year"></span> Fresno Plumbing & Heating Inc. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <a href="tel:5592924065" class="fixed bottom-4 left-1/2 z-50 flex w-[calc(100%-2rem)] max-w-sm -translate-x-1/2 items-center justify-center rounded-full bg-brand-red px-5 py-3 text-sm font-semibold text-white shadow-2xl md:hidden">
+      Call Now: (559) 292-4065
+    </a>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Plumbing",
+        "name": "Fresno Plumbing & Heating Inc",
+        "telephone": "+1-559-292-4065",
+        "email": "service@fresnoplumbinginc.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2585 N Larkin Ave",
+          "addressLocality": "Fresno",
+          "addressRegion": "CA",
+          "postalCode": "93727",
+          "addressCountry": "US"
+        },
+        "areaServed": ["Fresno", "Clovis", "Madera", "Hanford", "Visalia", "Central Valley"],
+        "url": "https://www.fresnoplumbinginc.com/"
+      }
+    </script>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.15 });
+
+      document.querySelectorAll('.fade-in').forEach((el) => observer.observe(el));
+    </script>
+  </body>
+</html>
